@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME | MILO.</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e8ebbf3dc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="shortcut icon" type="image/css" href="img/miloIcon.png">
+</head>
+<body>
+
+	<header class="header">
+		<!-- company logo -->
+		<a href="index.html" class="logo">MILO.</a>
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="products.html">Products</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+			<li><a href="cart.html" class="current-page"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+		</ul>
+	</header>
+
+	<div class="top-img-contact"></div>
+
+    <div class="intro">
+		<h1 class="intro-head">Checkout</h1>
+	</div>
+
+	<div class="form-container">
+		<form action="#" id="pinfo">
+			<div class="personal-info">
+				<h2>Personal info:</h2>
+			</div>
+			<div class="personal-info-content">
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="fname">First Name
+						<br>
+						<input type="text" name="fname" id="fname" placeholder="John">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="lname">Last Name
+						<br>
+						<input type="text" name="lname" id="fname" placeholder="Doe">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="cemail">Email
+						<br>
+						<input type="email" name="cemail" id="cemail" placeholder="johndoe@email.com">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="cphone">Phone Number
+						<br>
+						<input type="tel" name="cphone" id="cphone" placeholder="604-234-5678">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="address">Address
+						<br>
+						<input type="text" name="address" id="address" placeholder="Address">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="suite">Suite
+						<br>
+						<input type="text" name="suite" id="address" placeholder="Apartment, suite, etc. (optional)">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="pscode">Postal Code
+						<br>
+						<input type="text" name="pscode" id="pscode" placeholder="V6B 5K3">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="city">City
+						<br>
+						<input type="text" name="city" id="city" placeholder="Vancouver">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="province">Province
+							<br>
+						<input type="text" name="province" id="province" placeholder="BC">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="region">Region
+							<br>
+						<input type="text" name="region" id="region" placeholder="Canada">
+						</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="payment-method">
+				<h2>Payment method:</h2>
+			</div>
+			<div class="payment-method-content">
+				<div class="payment-method-container">
+					<div class="payment-method-item">
+						<input id="visa" class="radio-button" type="radio" name="payment-method">
+					</div>
+					<div class="payment-method-item">
+						<label for="visa">
+							<img class="payment-method-icon" src="img/logo-visa.png" alt="Choose Visa as your payment method">
+						</label>
+					</div>
+					<div class="payment-method-item">
+						<input id="mastercard" class="radio-button" type="radio" name="payment-method">
+					</div>
+					<div class="payment-method-item">
+						<label for="mastercard">
+							<img class="payment-method-icon" src="img/logo-mastercard.svg" alt="Choose Mastercard as your payment method">
+						</label>
+					</div>
+					<div class="payment-method-item">
+						<input id="amex" class="radio-button" type="radio" name="payment-method">
+					</div>
+					<div class="payment-method-item">
+						<label for="amex">
+							<img class="payment-method-icon" src="img/logo-amex.png" alt="Choose American Express as your payment method">
+						</label>
+					</div>
+					<div class="payment-method-item">
+						<input id="paypal" class="radio-button" type="radio" name="payment-method">
+					</div>
+					<div class="payment-method-item">
+						<label for="paypal">
+							<img class="payment-method-icon" src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="Choose PayPal as your payment method">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="choldername">Cardholder Name
+						<br>
+						<input type="text" name="choldername" id="choldername" placeholder="John Doe">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="cardnum">Card Number
+						<br>
+						<input type="text" inputmode="numeric" name="cardnum" id="cardnum" placeholder="xxxx-xxxx-xxxx-xxxx">
+						</label>
+					</div>
+				</div>
+				<div class="form-element">
+					<div class="form-item col">
+						<label class="label" for="expirationdate">Expiration Date
+						<br>
+						<input type="text" inputmode="numeric" name="expirationdate" id="expirationdate" placeholder="MM/YY">
+						</label>
+					</div>
+					<div class="form-item col">
+						<label class="label" for="securitycode">Security Code (CVV)
+						<br>
+						<input type="text" inputmode="numeric" name="securitycode" id="securitycode" placeholder="###">
+						</label>
+					</div>
+				</div>
+				<div class="btn-cart-container">
+						<button class="btn-reset">Reset</button>
+						<a href="confirmation.html" class="btn-confirm">Confirm</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	
+	<footer>
+		<div class="bottom-info">
+			<div class="info-container1">
+				<div class="container1-content">
+					<h3>MILO</h3>
+					<nav class="container1-tags">
+						<ul class="container1-tags-ul">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="products.html">Products</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="info-container2">
+				<div class="container1-content">
+					<h3>Follow Us</h3>
+					<nav class="container1-tags">
+						<ul class="container1-tags-ul">
+							<li>
+								<i class="fab fa-facebook-square"></i>
+							</li>
+							<li>
+								<i class="fab fa-instagram"></i>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="info-container3">
+				<div class="container1-content">
+					<h3>Newsletter</h3>
+					<div>
+						<input type="text" name="newsletter" class="newsletter-input" placeholder="Enter your email here">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<script src="js/fadein.js"></script>
+</body>
+</html>

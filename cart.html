@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME | MILO.</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e8ebbf3dc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="shortcut icon" type="image/css" href="img/miloIcon.png">
+</head>
+<body>
+
+	<header class="header">
+		<!-- company logo -->
+		<a href="index.html" class="logo">MILO.</a>
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="products.html">Products</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+			<li><a href="cart.html" class="current-page"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+		</ul>
+	</header>
+
+	<div class="top-img-contact"></div>
+
+    <div class="intro">
+		<h1 class="intro-head">Cart</h1>
+	</div>
+
+	<div class="cart-container">
+		<table class="cart-item">
+			<thead>
+				<tr>
+					<th class="first">Product</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="cart-items">
+					<td class="cart-item-thumbnail">
+						<a href="coverloungechair.html" class="cart-item-image">
+							<img src="img/cover-lounge-chair.png" alt="Cover Lounge Chair"  class="cart-item-image">
+						</a>
+						<span class="cart-item-designer">
+							<a href="coverloungechair.html">Thomas Bentzen</a>
+						</span>
+						<span class="cart-item-title">
+							<a href="coverloungechair.html">Cover Lounge Chair</a>
+						</span>
+						<i class="far fa-trash-alt cart-item-remove"></i>
+					</td>
+					<td class="cart-item-price">
+						$1340
+					</td>
+					<td class="cart-item-quantity">
+						<div class="quantity-input">
+							<a href="#" class="qty-minus">-</a>
+							<input type="text" name="qty" value="1" class="qty-num">
+							<a href="#" class="qty-increase">+</a>
+						</div>
+					</td>
+					<td class="cart-item-total">
+						$1340
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="btn-cart-container">
+		<a href="products.html" class="btn-update">Update</a>
+		<a href="checkout.html" class="btn-checkout">Checkout</a>
+	</div>
+	
+
+	<footer>
+		<div class="bottom-info">
+			<div class="info-container1">
+				<div class="container1-content">
+					<h3>MILO</h3>
+					<nav class="container1-tags">
+						<ul class="container1-tags-ul">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="products.html">Products</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="info-container2">
+				<div class="container1-content">
+					<h3>Follow Us</h3>
+					<nav class="container1-tags">
+						<ul class="container1-tags-ul">
+							<li>
+								<i class="fab fa-facebook-square"></i>
+							</li>
+							<li>
+								<i class="fab fa-instagram"></i>
+							</li>
+							<li>
+								<i class="fab fa-twitter"></i>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="info-container3">
+				<div class="container1-content">
+					<h3>Newsletter</h3>
+					<div>
+						<input type="text" name="newsletter" class="newsletter-input" placeholder="Enter your email here">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/fadein.js"></script>
+</body>
+</html>
